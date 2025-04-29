@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.containerStyle {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.headingStyle {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.formContainerStyle {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formGroupStyle {
+  margin-bottom: 16px;
+}
+
+.labelStyle {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.sectionTitleStyle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.sectionDescriptionStyle {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.fieldContainerStyle {
+  margin-bottom: 16px;
+}
+
+.labelStyle {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.fieldsetStyle {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legendStyle {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+  padding: 0;
+}

@@ -439,7 +439,6 @@ export function DynamicForm({ formData }: DynamicFormProps) {
               <div style={checkboxContainerStyle}>
                 {field.options?.map((option) => {
                   const checkboxValues = Array.isArray(value) ? value : [];
-                  //   const isChecked = checkboxValues.includes(option.value);
 
                   return (
                     <div key={option.value} style={checkboxItemStyle}>
@@ -447,13 +446,9 @@ export function DynamicForm({ formData }: DynamicFormProps) {
                         type="checkbox"
                         id={`${field.fieldId}-${option.value}`}
                         value={option.value}
-                        // checked={isChecked}
                         onChange={(e) => {
                           const updatedValues = [...checkboxValues];
                           if (e.target.checked) {
-                            // if (!updatedValues.includes(option.value)) {
-                            //   updatedValues.push(option.value);
-                            // }
                           } else {
                             const index = updatedValues.indexOf(option.value);
                             if (index !== -1) {
